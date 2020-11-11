@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2866353254,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.beginScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Place order and verify Amount",
+        "description": "",
+        "id": "tcs-for-placing-orders;place-order-and-verify-amount",
+        "after": [
+          {
+            "result": {
+              "duration": 394496048,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDownn(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3797828092,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open home page",
+            "match": {
+              "location": "HomePageSteps.openHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55247564,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to \"Laptops\" category from left navigation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptops",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageSteps.navigateToCategory(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3871794734,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open product \"Sony vaio i5\" from product listing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sony vaio i5",
+                  "offset": 14
+                }
+              ],
+              "location": "ProductListingPageSteps.navigateToCategory(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1142324615,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Add to cart on product page",
+            "match": {
+              "location": "ProductPageSteps.clickAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1063426835,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Accept confirmation popup",
+            "match": {
+              "location": "ProductPageSteps.acceptConnfimationPopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87264913,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open home page",
+            "match": {
+              "location": "HomePageSteps.openHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66302532,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate to \"Laptops\" category from left navigation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptops",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageSteps.navigateToCategory(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4578336276,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Open product \"Dell i7 8gb\" from product listing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dell i7 8gb",
+                  "offset": 14
+                }
+              ],
+              "location": "ProductListingPageSteps.navigateToCategory(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1607574561,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Add to cart on product page",
+            "match": {
+              "location": "ProductPageSteps.clickAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1110674190,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Accept confirmation popup",
+            "match": {
+              "location": "ProductPageSteps.acceptConnfimationPopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1036340529,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Navigate to cart",
+            "match": {
+              "location": "NavigationSteps.clickAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2968057036,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Delete product \"Dell i7 8gb\" from cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dell i7 8gb",
+                  "offset": 16
+                }
+              ],
+              "location": "BasketPageSteps.navigateToCategory(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1615282728,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Save basket Order Total price",
+            "match": {
+              "location": "BasketPageSteps.saveBasketPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39902558,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click \u0027Place order\u0027 button",
+            "match": {
+              "location": "BasketPageSteps.clickPlaceOrderButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 969169978,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Fill the user information",
+            "match": {
+              "location": "BasketPageSteps.fillUserInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70117960,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click \u0027Purchase\u0027 button",
+            "match": {
+              "location": "BasketPageSteps.clickPurchaseButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83633407,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify Order is placed successfully",
+            "match": {
+              "location": "OrderConfirmationPageSteps.verifyOrderPlacedSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16807139,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify order amount on order confirmation page",
+            "match": {
+              "location": "OrderConfirmationPageSteps.verifyOrderDetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53648370,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click \u0027OK\u0027 button on Order confirmation page",
+            "match": {
+              "location": "OrderConfirmationPageSteps.clickPurchaseButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@order"
+          }
+        ]
+      }
+    ],
+    "name": "TCs for placing orders",
+    "description": "",
+    "id": "tcs-for-placing-orders",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/order.feature"
+  }
+]
